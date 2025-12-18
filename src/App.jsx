@@ -8,7 +8,7 @@ import {
   Maximize2, AlertCircle, Info, XCircle
 } from 'lucide-react';
 
-const apiKey = ""; // Provided at runtime
+const apiKey = "VITE_GEMINI_API_KEY";
 
 const GlobalStyles = () => (
   <style>{`
